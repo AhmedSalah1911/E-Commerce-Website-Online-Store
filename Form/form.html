@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../cssFiles/headerStyle.css">
+    <link rel="stylesheet" href="formStyle.css">
+    <link rel="stylesheet" href="../cssFiles/footerStyle.css">
+    <link rel="stylesheet" href="../cssFiles/backgroundStyle.css">
+</head>
+<body>
+    
+    <header class="header" id="header">
+
+        <div class="divForEdit">
+            <nav class="navBar" id="navBar">
+    
+                <ul class="navBarList" id="navBarList">
+                    <li class="homeLi"><a href="E-Commerce Website.html" id="homeBtn">Home</a></li>
+                    <li class="aboutUsLi"><a id="aboutUsBtn">About Us</a></li>
+                    <!-- <li class="contactUs"><a>Contact Us</a></li> -->
+                    <li ><a href="" id="categoriesButton">Categories</a></li>
+                    <li class="serachLi">
+                        <input type="search" id="searchBox" class="searchBox">
+                        <button type="button" class="searchBtn" id="searchBtn">Search</button>
+                    </li>
+                    <li class="logInLi"><a>Log In</a></li>
+                    <!-- <li class="signUp">
+                        <a  class="signUpBtn" id="signUpBtn">Sign Up</a>
+                    </li> -->
+                </ul>
+        
+            </nav>
+        
+            <div class="signUpDiv">
+                <a  class="signUpBtn" id="signUpBtn">Sign Up</a>
+            </div>
+    
+        </div>
+    
+    
+    
+    </header>
+
+
+<!-- _________________________________________ Slider ________________________________________________-->
+<!-- ___________________________________________________________________________________________________-->
+<!-- ___________________________________________________________________________________________________-->
+<!-- ___________________________________________________________________________________________________-->
+
+<div class="BackgroundDiv1" id="BackgroundDiv1"></div>
+<div class="BackgroundDiv2" id="BackgroundDiv2"></div>
+
+
+<!-- _________________________________________ Form ________________________________________________-->
+<!-- ___________________________________________________________________________________________________-->
+<!-- ___________________________________________________________________________________________________-->
+<!-- ___________________________________________________________________________________________________-->
+
+
+
+<form id="myForm">
+    <fieldset>
+        <legend>
+            Online Store
+        </legend>
+
+
+        <div class="userName">
+            <label class="lab">UserName</label>
+            <input type="text" placeholder="Enter Your Name" id="username" >
+            <span class="invalidUser" id="invalidUser"></span>
+        </div>
+
+
+        <div class="email">
+            <label class="lab">Email</label>
+            <input type="email" placeholder="Enter Your Email" id="userEmail">
+            <span class="invalidEmail" id="invalidEmail"> </span>
+        </div>
+
+        <div class="password">
+            <Label class="lab">Password</Label>
+            <input type="password" placeholder="Enter Your Password" id="userPass">
+            <span class="invalidPassword" id="invalidPassword"></span>
+        </div>
+
+        <div class="gender">
+            <label class="lab">Gender</label>
+            <input type="radio" id="male" name="gender"> <label class="gender" id="maleLabel">Male </label>
+            <input type="radio" id="female" name="gender"> <label class="gender" id="femaleLabel">Female </label>
+            <span class="invalidGender" id="invalidGender"></span>
+        </div>
+
+
+        <div class="buttons">
+            <input type="button" id="submitBtn" value="Submit">
+            <input type="reset" id="resetBtn" value="Reset">
+        </div> 
+
+    </fieldset>
+</form>
+
+
+<!-- _________________________________________ Footer ________________________________________________-->
+<!-- ___________________________________________________________________________________________________-->
+<!-- ___________________________________________________________________________________________________-->
+<!-- ___________________________________________________________________________________________________-->
+
+
+<footer class="footer">
+            
+    <div class="updates">
+        <h3 class="footerhead">Online Store</h3>
+        <p class="recieve"> recieve updated and latest news direct from simply enter.</p>
+        <h2 style="color: #EEE;">+564 <span style="color: #164246;"> 7885 3222</span></h2>
+        <p>youremail@gmail.com</p>
+    </div>
+
+    <div class="support">
+        <h3 class="footerhead"> OUR SUPPORT</h3>
+        <ul>
+            <li><a href=""> Advanced</a></li>
+            <li><a href="">Management</a></li>
+            <li><a href="">Corporate</a></li>
+            <li><a href="">Customer</a></li>
+            <li><a href="">Information</a></li>
+
+        </ul>
+    </div>
+
+
+    <div class="quickLine ">
+        <h3 class="footerhead"> Quick Line</h3>
+        <ul>
+            <li><a href=""> About </a></li>
+            <li><a href=""> Privacy Policy </a></li>
+            <li><a href=""> Licenses </a></li>
+        </ul>
+    </div>
+
+
+    <div class="newslatter">
+        <h3 class="footerhead">NEWSLATTER</h3>
+        <p> subscribe now to get daily updates</p>
+        <input type="text" placeholder="Email Address">
+        <a href="">Send</a>
+    </div>
+
+</footer>
+
+<div class="copyRight">
+    <p>Copyright @2021 All rights reserved | this template is made with 💙 by <span style="color:#164246 ; font-weight: bolder;">Colorlib</span></p>
+</div>
+
+
+
+
+<a class="goUpDiv" id="goUpDiv">&lt;</a>
+
+
+
+    <script src="formscript.js"></script>
+</body>
+</html>

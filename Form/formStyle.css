@@ -1,0 +1,150 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    
+}
+html
+{
+    font-size: 20px;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: inherit;
+    color: inherit; 
+}
+
+
+
+/*_________________________________________ Form Design___________________________________________*/
+/*____________________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________________*/
+
+form
+{
+    margin-top: 2%;
+    margin-bottom: 8%;
+    padding: 0.5% 15% 0% 5%;
+}
+
+fieldset
+{
+    border: 3px solid rgba(255, 255, 255, 0.297);
+    border-radius: 3rem;
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+legend
+{
+    font-size: 150%;
+    color: #7b3232;
+    font-weight: 800;
+    padding: 2%;
+}
+
+
+form span
+{
+    width: 16rem;
+    font-size: 70%;
+    color: red;
+}
+
+
+form fieldset div
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+fieldset div label
+{
+    font-size: 140%;
+    color: #164246;
+    font-weight: 600;
+    width: 11rem;
+}
+
+fieldset div input
+{
+    width: 22rem ;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background :none;
+    border: 1px solid rgba(220, 220, 220, 0.37);
+    color: #EEE;
+}
+
+
+fieldset div input:focus
+{
+    outline: none;
+}
+
+#maleLabel , #femaleLabel
+{
+    font-size: 105%;
+    color: rgb(223, 223, 223);
+    font-weight: 500;
+    margin: 0%;
+    width: 7rem;
+}
+
+#male , #female
+{
+    width: 1rem;
+    border: 2px solid red;
+}
+
+
+.buttons
+{
+    justify-content: center ;
+}
+
+
+.buttons input
+{
+    width: 10rem;
+    margin-right: 2rem;
+    border: none;
+    font-size: 110%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0.8rem;
+}
+
+#submitBtn
+{
+    background-color: #102e31;
+}
+
+#resetBtn
+{
+    background-color: #5f2828;
+}
