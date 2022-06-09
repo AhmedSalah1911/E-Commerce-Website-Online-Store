@@ -1,0 +1,251 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    
+}
+html
+{
+    font-size: 20px;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: inherit;
+    color: inherit; 
+}
+
+
+
+/*___________________________________________ Header & Nav Bar _______________________________________________*/
+/*____________________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________________*/
+
+
+header
+{
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 0.9rem ;
+    color: rgb(220, 220, 220);
+    font-weight: bold;
+    z-index: 10000;
+}
+
+
+.divForEdit
+{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    height: 4.5rem;
+}
+
+
+nav
+{
+    width: 88%;
+    position: absolute;
+    left: 0%;
+}
+
+.signUpDiv
+{
+    width: 8rem;
+    position: absolute;
+    right: 0.7rem;
+    top: 1rem;
+    text-align: center;
+}
+
+
+nav ul
+{
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li
+{
+    width: 6.5rem;
+    font-weight: bolder;
+}
+
+
+.contactUs , .signUp
+{
+    width: 6.2rem;
+}
+
+
+.serachLi
+{
+    width: 17rem;
+}
+
+.searchBox
+{
+    width: 12rem;
+    padding: 0.4rem;
+    border-radius: 0.7rem;
+    background:none;
+    border: 1px solid rgb(220, 220, 220);
+    color: rgb(220, 220, 220)
+}
+
+.homeLi , .logInLi
+{
+    width: 3.6rem;
+}
+
+
+.searchBtn , .signUpBtn
+{
+    font-weight: bolder;
+    font-size: 0.9rem;
+    background: none;
+    border: none;
+    color: rgb(220, 220, 220);
+    padding: 0.5rem;
+}
+
+
+#signUpBtn
+{
+    font-size: 140%;
+    /* box-shadow:  0px 10px 10px #164246; */
+    background-color: rgba(238, 238, 238, 0.244);
+    border-radius: 55% 0%;
+}
+
+
+#searchBtn:hover
+{
+    color: #5f2828;
+    cursor: pointer;
+}
+
+
+#signUpBtn:hover
+{
+    cursor: pointer;
+    color: #164246;
+}
+
+
+nav a:hover
+{
+    color: #5f2828;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .aboutUsBtn , .aboutUsLi , .contactUs , .serachLi
+    {
+        display: none;
+    }
+
+    nav 
+    {
+        width: 80%;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px)
+{
+    nav
+    {
+        width: 60%;
+    }
+}
+
+
+
+
+
+/*____________________________________________________  Main Div __________________________________________*/
+/*____________________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________________*/
+
+.mainDiv
+{
+    width: 100%;
+    /* box-shadow: 0px -40px 50px 20px inset #1642466b , 0px 40px 70px 20px #1642466b; */
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-items: center;
+    margin-bottom: 5%;
+}
+
+
+/*________________________________________________  Container Class __________________________________________*/
+/*____________________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________________*/
+
+.container
+{
+    width: 87.5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 0% 1% 5% 1%;
+}
+
+
+/*__________________________________________________________________________*/
+
+.goUpDiv
+{
+    position: fixed;
+    bottom: 0.5%;
+    left: 50%;
+    font-size: 350%;
+    background: none;
+    border: none;
+    opacity: 0.3;
+    z-index: 10000;
+    text-shadow: 0px -10px 18px  rgba(255, 255, 255, 0.265),0px 10px 18px  rgba(255, 255, 255, 0.265);
+    color: rgba(255, 255, 255, 0.265);
+    transform: rotate(90deg);
+}
+
+
+.goUpDiv:hover
+{
+    cursor: pointer;
+    opacity: 1;
+    color: rgba(238, 238, 238, 0.523);
+}
+
