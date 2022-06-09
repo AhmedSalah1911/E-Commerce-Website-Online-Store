@@ -1,0 +1,27 @@
+.BackgroundDiv1 , .BackgroundDiv2
+{
+    width: 42rem;
+    height: 38.2rem;
+    position: absolute;
+    top: 0%;
+    z-index: -100;    
+}
+
+
+
+
+.BackgroundDiv2 
+{
+
+    background-color: #1010104e;
+    left: 0%;
+    width: 0rem;
+} 
+
+
+
+.BackgroundDiv1
+{
+    background-color: #2e0f0fb7 ;
+    right: 0%;
+}
